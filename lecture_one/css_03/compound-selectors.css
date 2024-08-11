@@ -1,0 +1,25 @@
+.text-highlight {
+    color: blue;
+    font-size: 18px;
+}
+
+p#background {
+    background-color: yellow;
+}
+
+.important-item {
+    color: aqua;
+}
+
+.important-item-italic {
+    color: red;
+    font-style: italic;
+}
+
+.fancy-link {
+    color: orange;
+}
+
+.fan-fancy {
+    color: blue;
+}

@@ -1,0 +1,7 @@
+nav ul li a {
+    color: red;
+}
+
+section + footer {
+    background-color: rgb(109, 203, 109);
+}

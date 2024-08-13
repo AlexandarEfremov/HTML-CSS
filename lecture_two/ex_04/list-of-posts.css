@@ -1,0 +1,11 @@
+section {
+    color: rgb(135, 138, 138);
+}
+
+section time {
+    font-style: italic;
+}
+
+section span {
+    font-weight: bolder;
+}

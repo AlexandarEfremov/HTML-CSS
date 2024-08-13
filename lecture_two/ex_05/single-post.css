@@ -1,0 +1,10 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+}
+
+.post-title h1,
+.post-content p {
+    font-style: oblique;
+    font-size: 20px;
+}

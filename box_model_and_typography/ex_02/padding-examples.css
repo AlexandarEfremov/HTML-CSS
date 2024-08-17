@@ -1,0 +1,21 @@
+body {
+    border: solid 2px black;
+    margin: 0px;
+}
+
+div {
+    border: solid 2px black;
+    margin: 8px 8px 20px 8px;
+}
+
+.first {
+    padding: 20px;
+}
+
+.second {
+    padding: 10px 30px 20px 40px;
+}
+
+.third {
+    padding: 5%;
+}

@@ -1,5 +1,6 @@
 body {
     border: solid 2px black;
+    padding: 4px;
 }
 
 .inline p {
@@ -9,6 +10,7 @@ body {
 section {
     border: 2px solid black;
     padding: 1em 2em;
+    margin: 8px;
 }
 
 section p {

@@ -7,3 +7,11 @@ div {
     border: 2px solid black;
     margin: 15px;
 }
+
+.fixed-width {
+    width: 300px;
+}
+
+.per-width {
+    width: 50%;
+}

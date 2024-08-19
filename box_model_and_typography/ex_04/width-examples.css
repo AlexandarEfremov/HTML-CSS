@@ -15,3 +15,12 @@ div {
 .per-width {
     width: 50%;
 }
+
+.vw-width {
+    width: 50vw;
+}
+
+.min-max {
+    min-width: 100px;
+    max-width: 300px;
+}

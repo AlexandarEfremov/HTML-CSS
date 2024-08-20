@@ -17,6 +17,6 @@ div {
 
 .mixed {
     border: dashed 2px black;
-    border-left: solid 2px black;
-    border-right: solid 2px black;
+    border-left: solid;
+    border-right: solid;
 }

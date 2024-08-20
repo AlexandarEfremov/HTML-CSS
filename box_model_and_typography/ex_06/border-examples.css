@@ -1,0 +1,22 @@
+div {
+    padding: 10px;
+    margin: 15px;
+}
+
+.solid {
+    border: solid 2px black;
+}
+
+.dashed {
+    border: dashed 2px black;
+}
+
+.dotted {
+    border: dotted 2px black;
+}
+
+.mixed {
+    border: dashed 2px black;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+}

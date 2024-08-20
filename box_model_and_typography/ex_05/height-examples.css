@@ -1,0 +1,8 @@
+body {
+    border: solid 2px black;
+    margin: 0;
+}
+
+.fixed {
+    height: 200px;
+}

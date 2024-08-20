@@ -4,19 +4,19 @@ div {
 }
 
 .solid {
-    border: solid 2px black;
+    border: solid 4px black;
 }
 
 .dashed {
-    border: dashed 2px black;
+    border: dashed 3px #333;
 }
 
 .dotted {
-    border: dotted 2px black;
+    border: dotted 2px #666;
 }
 
 .mixed {
-    border: dashed 2px black;
-    border-left: solid;
-    border-right: solid;
+    border: dashed 3px #333;
+    border-left: solid 4px #000;
+    border-right: solid 4px #000;
 }

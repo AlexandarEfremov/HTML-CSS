@@ -18,3 +18,22 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5em;
     font-family: Georgia;
 }
+
+table {
+    width: 100%;
+    border: solid rgb(163, 161, 161) 1px;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: solid rgb(176, 175, 175) 1px;
+    padding: 2px;
+}
+
+th {
+    background-color: rgb(186, 180, 180);
+}
+
+table tr:nth-child(odd) td {
+    background-color: rgb(217, 213, 213);
+}

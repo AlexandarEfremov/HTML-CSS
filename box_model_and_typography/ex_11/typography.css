@@ -23,6 +23,7 @@ table {
     width: 100%;
     border: solid rgb(163, 161, 161) 1px;
     border-collapse: collapse;
+    margin-bottom: 30px;
 }
 
 td, th {
@@ -36,4 +37,18 @@ th {
 
 table tr:nth-child(odd) td {
     background-color: rgb(217, 213, 213);
+}
+
+blockquote {
+    margin: 1em;
+    padding: 1em;
+    border-left: 2px solid rgb(186, 180, 180);
+    font-style: italic;
+}
+
+footer {
+    margin: 30px;
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
 }

@@ -1,0 +1,59 @@
+html {
+    font-family: Lato, sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+}
+
+p {
+    margin: 5px;
+}
+
+p, ul, ol {
+    padding-bottom: 2.5rem;
+}
+
+ul, ol {
+    padding-left: 2.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+table {
+    width: 100%;
+    border: solid rgb(163, 161, 161) 1px;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+td, th {
+    border: solid rgb(176, 175, 175) 1px;
+    padding: 2px;
+}
+
+th {
+    background-color: rgb(186, 180, 180);
+}
+
+table tr:nth-child(odd) td {
+    background-color: rgb(217, 213, 213);
+}
+
+blockquote {
+    margin: 1em;
+    padding: 1em;
+    border-left: 2px solid rgb(186, 180, 180);
+    font-style: italic;
+}
+
+footer {
+    margin: 30px;
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+}

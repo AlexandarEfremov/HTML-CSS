@@ -1,5 +1,13 @@
 section {
     border: solid 2px black;
-    margin: 10px;
-    height: 50px;
+    padding: 2em;
+    position: relative;
 }
+
+.class {
+    border: 1px solid #333;
+    padding: 0.5em;
+    width: 5em;
+    height: 5em;
+}
+

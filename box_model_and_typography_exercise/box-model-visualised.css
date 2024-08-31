@@ -6,13 +6,27 @@
 
 .box-model {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 4em auto;
 }
 
 .box-model div{
     border: 1px dashed #333;
+    padding: 2em;
+}
+
+.margin{
+    background: #ff966f;
+}
+
+.border{
+    background: #ffe8c6;
+}
+
+.padding{
+    background: #85eb85;
 }
 
 .content{
     text-align: center;
+    background: #a3d2e2;
 }

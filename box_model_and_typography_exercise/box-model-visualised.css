@@ -8,3 +8,11 @@
     max-width: 600px;
     margin: 0 auto;
 }
+
+.box-model div{
+    border: 1px dashed #333;
+}
+
+.content{
+    text-align: center;
+}

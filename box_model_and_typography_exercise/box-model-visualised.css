@@ -8,6 +8,7 @@
     max-width: 600px;
     margin: 4em auto;
     text-align: left;
+    padding: 0.5em 2em 2em 2em;
 }
 
 .box-model div{
@@ -20,12 +21,27 @@
     margin-left: -5em;
 }
 
+.margin::before {
+    display: block;
+    content: 'margin';
+}
+
 .border{
     background: #ffe8c6;
 }
 
+.border::before {
+    display: block;
+    content: 'border';
+}
+
 .padding{
     background: #85eb85;
+}
+
+.padding::before {
+    display: block;
+    content: 'padding';
 }
 
 .content{

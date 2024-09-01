@@ -17,6 +17,7 @@
 
 .box-model div::before {
     display: block;
+    padding-bottom: 0.5em;
 }
 
 .margin{
@@ -44,7 +45,8 @@
     content: 'padding';
 }
 
-.content{
+.box-model .content{
     text-align: center;
     background: #a3d2e2;
+    padding: 0.5em;
 }

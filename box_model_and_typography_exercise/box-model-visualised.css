@@ -7,6 +7,7 @@
 .box-model {
     max-width: 600px;
     margin: 4em auto;
+    text-align: left;
 }
 
 .box-model div{
@@ -16,6 +17,7 @@
 
 .margin{
     background: #ff966f;
+    margin-left: -5em;
 }
 
 .border{

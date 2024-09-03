@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 2px solid green;
+    padding: 2em;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.box {
+    border: 2px solid blue;
+    padding: 2em;
+    margin-left: 6em;
+    margin-right: 6em; 
+}
+
+.box > * {
+    text-align: center;
+    border: 2px solid black;
+    padding: 2em;
+}
+
+/* Basically saying all children that have direct elements after them should have padding 2em */
+.box > * + * {
+    margin-top: 2em;
+}
+

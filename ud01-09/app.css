@@ -42,7 +42,7 @@ p {
     text-decoration-style: double;
 } */
 
-h1 {
+/* h1 {
     text-decoration: line-through red double;
 }
 
@@ -53,4 +53,8 @@ h1 {
 .magic {
     color: magenta;
     text-decoration: black dotted underline;
+} */
+
+#cast {
+    list-style-type: georgian;
 }

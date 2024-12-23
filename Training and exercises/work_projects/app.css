@@ -23,6 +23,11 @@ p {
     line-height: 2.5;
 } */
 
-body {
+/* body {
     font-family: "Josefin Sans";
+} */
+
+h1 {
+    font-size: 100px;
+    text-shadow: magenta 2px 2px 5px;
 }

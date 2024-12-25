@@ -26,8 +26,16 @@
 } */
 
 
-#link {
+/* #link {
       font-size: 30px;
       border: 1px solid red;
       padding: 10px 20px 5px 60px;
+} */
+
+h1 {
+      border: 1px solid black;
+}
+
+a {
+      border: 1px solid olive;
 }

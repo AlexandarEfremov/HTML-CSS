@@ -32,10 +32,22 @@
       padding: 10px 20px 5px 60px;
 } */
 
-h1 {
+/* h1 {
       border: 1px solid black;
 }
 
 a {
       border: 1px solid olive;
+} */
+
+h1 {
+      margin: auto;
+}
+
+#center h3 {
+      color: red;
+      border: 1px solid black;
+      height: 300px;
+      width: 300px;
+      margin: auto;
 }

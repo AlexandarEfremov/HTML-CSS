@@ -1,5 +1,11 @@
-p:first-of-type::first-letter {
+/* p:first-of-type::first-letter {
       color: blue;
       text-transform: uppercase;
       font-size: 200%;
+} */
+
+
+p::selection {
+      background-color: yellow;
+      color: red;
 }

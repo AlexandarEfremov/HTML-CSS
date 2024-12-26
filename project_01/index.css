@@ -36,7 +36,24 @@ h1 {
       border-bottom: 1px solid black;
 }
 
-img {
-      width: 40%;
+.card {
+      width: 49.8%;
+      display: inline-block;
+      box-sizing: border-box;
+      padding: 20px;
+}
+.card img {
       height: 500px;
+      width: 100%;
+      object-fit: cover;
+}
+
+.card h2 {
+      display: inline-block;
+      margin: 8px 0 16px 0;
+      font-weight: 300;
+}
+
+.gallery {
+      padding: 16px;
 }

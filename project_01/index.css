@@ -35,3 +35,8 @@ h1 {
 .active {
       border-bottom: 1px solid black;
 }
+
+img {
+      width: 40%;
+      height: 500px;
+}

@@ -93,3 +93,8 @@ h2 {
       font-weight: bold;
       margin-left: 20px;
 }
+
+code {
+      color: #e95400;
+      font-weight: 700;
+}

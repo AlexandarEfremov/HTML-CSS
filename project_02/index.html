@@ -28,7 +28,18 @@
       </head>
 
 <body>
-      <h1>A Blog Post</h1>
+      <div class="hero">
+            <h1>A Blog Post</h1>
+            <p>
+                  Typography is one of the most important elements of front end design and development! In this
+                  exercise,
+                  we'll play around with some of the common CSS properties to manage and style our fonts by making a
+                  nice blog
+                  post-like web page.
+            </p>
+            <hr>
+      </div>
+
       <div class="content">
             <p class="info">12.31.2050 | <span>ALL ABOUT CSS BLOG</span></p>
             <h2>All About Typography</h2>
@@ -130,15 +141,18 @@
             <h4>Which one do I use?</h4>
 
             <p>
-                  Great question! Generally, people try to stick to using <code>em</code> or <code>rem</code> over <code>px</code>, since they make responsive
+                  Great question! Generally, people try to stick to using <code>em</code> or <code>rem</code> over
+                  <code>px</code>, since they make responsive
                   typography that scales up and down across different device widths much easier. Using px for your font
                   sizes is not as dynamic, and you may find that writing media queries to update all the various element
                   font sizes in pixels at different screen widths is not the most scalable approach to typography.
             </p>
             <p>
-                  Between <code>em</code> and <code>rem</code>, <code>rem</code> has a nice advantage of all elements being relative to one single root font
+                  Between <code>em</code> and <code>rem</code>, <code>rem</code> has a nice advantage of all elements
+                  being relative to one single root font
                   value, where nested elements with parent/child font size dependencies can still be hard to manage with
-                  em units. When writing responsive styles, <code>rem</code> allows you to simply update the root font size at
+                  em units. When writing responsive styles, <code>rem</code> allows you to simply update the root font
+                  size at
                   different screen sizes and all elements using rem units will adjust themselves accordingly creating a
                   super easy-to-manage typography size system.
             </p>
@@ -159,7 +173,7 @@
                   </li>
                   <li>
                         <a href="#about">About</a>
-                  </li> 
+                  </li>
                   <li>
                         <a href="#contact">Contact Us</a>
                   </li>

@@ -1,0 +1,31 @@
+h1 {
+      color: green;
+}
+
+p {
+      font-size: 10px;
+}
+
+.highlight {
+      background-color: pink;
+}
+
+#main-title {
+      background-color: aqua;
+}
+
+#special-paragraph {
+      font-style: italic;
+}
+
+ul {
+      list-style-type: decimal-leading-zero;
+}
+
+li {
+      color: darkmagenta;
+}
+
+div {
+      background-color: tomato;
+}

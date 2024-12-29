@@ -1,0 +1,29 @@
+nav a {
+      color: purple;
+}
+
+section.sec>article {
+      background-color: blue;
+}
+
+header+main {
+      background-color: magenta;
+}
+
+h1~section {
+      font-size: 40px;
+      color: chocolate;
+}
+
+a[href="services"] {
+      text-transform: uppercase;
+}
+
+a:hover {
+      color: orange;
+}
+
+p::selection {
+      background-color: red;
+      color: black;
+}

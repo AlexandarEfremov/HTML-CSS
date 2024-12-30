@@ -1,0 +1,19 @@
+section p {
+      font-weight: 800;
+}
+
+ul>li {
+      text-transform: uppercase;
+}
+
+article.highlighted+article {
+      background-color: orange;
+}
+
+h2~p {
+      color: blue;
+}
+
+li.specific a {
+      color: magenta;
+}

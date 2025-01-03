@@ -1,0 +1,19 @@
+body {
+      border: 2px solid black;
+}
+
+div {
+      border: 2px solid black;
+}
+
+.uni {
+      margin: 20px;
+}
+
+.non-uni {
+      margin: 10px 30px 20px 40px;
+}
+
+.neg {
+      margin: -20px;
+}

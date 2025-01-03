@@ -1,0 +1,20 @@
+body {
+      border: 2px solid black;
+}
+
+div {
+      border: 2px solid black;
+      margin: 8px;
+}
+
+.uni {
+      padding: 20px;
+}
+
+.non-uni {
+      padding: 10px 30px 20px 40px;
+}
+
+.percent {
+      padding: 5%;
+}

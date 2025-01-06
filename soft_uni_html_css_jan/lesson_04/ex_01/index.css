@@ -1,0 +1,57 @@
+* {
+      margin: 0;
+      padding: 0;
+}
+
+div {
+      display: inline-block;
+      margin: 30px;
+      border: 2px solid black;
+}
+
+.content {
+      border: 2px solid black;
+      width: 500px;
+      height: 50px;
+      background-color: lightblue;
+}
+
+.padding {
+      background-color: lightgreen;
+}
+
+.border {
+      background-color: rgb(242, 242, 167);
+}
+
+.margin {
+      background-color: rgb(231, 182, 91);
+}
+
+section {
+      margin: auto;
+      width: 756px;
+}
+
+.one {
+      text-align: center;
+      margin-top: 15px;
+}
+
+.two {
+      position: absolute;
+      top: 100px;
+      left: 490px;
+}
+
+.three {
+      position: absolute;
+      top: 70px;
+      left: 460px;
+}
+
+.four {
+      position: absolute;
+      top: 40px;
+      left: 430px;
+}

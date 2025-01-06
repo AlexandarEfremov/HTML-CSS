@@ -1,0 +1,35 @@
+body {
+      background-color: lightgray;
+}
+
+.card {
+      width: 350px;
+      background-color: white;
+      margin: 40px auto;
+      border-radius: 4px;
+      box-shadow: 4px 4px 10px gray;
+}
+
+figure {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 200px;
+      background-image: url("image1.jpg");
+      background-size: cover;
+      border-radius: 4px;
+}
+
+article {
+      padding: 20px;
+}
+
+h1 {
+      margin: 0;
+      padding: 0;
+      font-size: 20px;
+}
+
+a {
+      text-wrap: wrap;
+}

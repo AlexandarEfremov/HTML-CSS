@@ -1,0 +1,28 @@
+div.container {
+      width: 800px;
+      margin: 20px auto;
+}
+
+details {
+      border: 2px solid gray;
+      padding: 15px;
+}
+
+.head {
+      border-top: 0;
+      border-bottom: 0;
+}
+
+summary {
+      font-weight: 600;
+}
+
+details summary::marker,
+:is(::-webkit-details-marker) {
+      content: "> ";
+      font-weight: bold;
+}
+
+details[open] summary::marker {
+      content: "⌄";
+}

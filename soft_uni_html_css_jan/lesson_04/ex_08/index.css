@@ -1,0 +1,46 @@
+.link-buttons a,
+.buttons button {
+      text-decoration: none;
+      color: black;
+      border: 1px solid lightgray;
+      padding: 15px;
+      margin: 10px;
+      border-radius: 4px;
+}
+
+h1 {
+      margin-left: 10px;
+      font-size: 25px;
+}
+
+h2 {
+      margin-left: 10px;
+      font-size: 21px;
+}
+
+div.links {
+      margin: 40px 0;
+}
+
+.lightgray {
+      background-color: lightgray;
+}
+
+.orange {
+      background-color: orange;
+}
+
+.lightyellow {
+      background-color: lightyellow;
+}
+
+button.gray,
+a.gray {
+      background-color: gray;
+      padding-left: 30px;
+}
+
+button,
+a {
+      font-size: 16px;
+}

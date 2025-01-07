@@ -1,0 +1,44 @@
+.icons div {
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      border: 1px solid rgb(236, 234, 234);
+      background-color: rgb(236, 234, 234);
+      border-radius: 50%;
+      margin: 0 5px;
+}
+
+h1 {
+      font-weight: 800;
+      font-size: 30px;
+}
+
+div.facebook {
+      background-image: url("https://static.vecteezy.com/system/resources/thumbnails/018/930/481/small/facebook-logo-facebook-icon-transparent-free-png.png");
+      background-repeat: no-repeat;
+      background-size: 60%;
+      background-position: center;
+
+
+}
+
+div.twitter {
+      background-image: url("https://freepngimg.com/download/icon/logo/62843-icons-media-twitter-computer-black-social-logo.png");
+      background-repeat: no-repeat;
+      background-size: 40%;
+      background-position: center;
+}
+
+div.github {
+      background-image: url("https://cdn-icons-png.flaticon.com/512/25/25231.png");
+      background-repeat: no-repeat;
+      background-size: 40%;
+      background-position: center;
+}
+
+div.square {
+      background-image: url("https://static.thenounproject.com/png/872693-200.png");
+      background-repeat: no-repeat;
+      background-size: 40%;
+      background-position: center;
+}

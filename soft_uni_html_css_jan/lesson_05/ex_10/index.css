@@ -10,3 +10,19 @@
       padding: 20px;
       border: 2px solid #000
 }
+
+.flex-basis-5em div {
+      flex-basis: 5em;
+}
+
+.flex-shrink-zero div {
+      flex-shrink: 0;
+}
+
+.flex-grow-one {
+      width: 900px;
+}
+
+.flex-grow-one div {
+      flex-grow: 1;
+}

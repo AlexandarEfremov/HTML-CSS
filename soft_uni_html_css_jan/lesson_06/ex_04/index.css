@@ -9,3 +9,28 @@ html {
 *:after {
       box-sizing: inherit;
 }
+
+a {
+      text-decoration: none;
+      color: orange;
+      display: inline-block;
+      padding: 5px;
+      margin: 5px;
+}
+
+.navbar {
+      border: 1px solid rgb(167, 167, 167);
+      background-color: lightgray;
+      display: flex;
+      width: 95%;
+      border-radius: 4px;
+      box-shadow: 0 0 10px gray;
+      margin: 20px auto;
+}
+
+.navbar>* {
+      border: 1px solid rgb(167, 167, 167);
+      background-color: white;
+      border-radius: 4px;
+      margin: 10px 5px;
+}

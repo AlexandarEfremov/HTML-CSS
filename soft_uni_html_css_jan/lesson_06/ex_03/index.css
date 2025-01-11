@@ -1,9 +1,82 @@
 html {
       box-sizing: border-box;
+      padding: 0;
+      margin: 0;
 }
 
 *,
 *:before,
 *:after {
       box-sizing: inherit;
+}
+
+body {
+      background-color: lightgray;
+}
+
+div.container {
+      width: 97%;
+      margin: 30px auto;
+      background-color: white;
+      border-radius: 3px;
+      box-shadow: 0 0 10px gray;
+      padding: 3px;
+}
+
+div.calendar {
+      border: 1px solid lightgray;
+      border-radius: 3px;
+      display: flex;
+      flex-wrap: wrap;
+}
+
+div.calendar>* {
+      text-align: center;
+      border: 1px solid lightgray;
+      padding: 0;
+
+}
+
+.item-1,
+.item-3 {
+      flex: 1 1 80%;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+}
+
+.item-2,
+.item-4 {
+      flex: 1 1 20%;
+      flex-wrap: wrap;
+      text-transform: uppercase;
+}
+
+.workweek {
+      flex: 1 1 100%;
+      border: 1px solid lightgray;
+      padding: 20px;
+}
+
+.monday,
+.tuesday,
+.wednesday,
+.thursday,
+.friday {
+      flex: 1 1 20%;
+      border: 1px solid lightgray;
+      padding: 20px;
+}
+
+.weekend {
+      flex: 1 1 100%;
+      border: 1px solid lightgray;
+      padding: 20px;
+}
+
+.saturday,
+.sunday {
+      flex: 1 1 50%;
+      border: 1px solid lightgray;
+      padding: 20px;
 }

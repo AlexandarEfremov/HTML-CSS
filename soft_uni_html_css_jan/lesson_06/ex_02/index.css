@@ -1,0 +1,83 @@
+html {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+}
+
+*,
+*:before,
+*:after {
+      box-sizing: inherit;
+}
+
+body {
+      background-color: #EEE;
+}
+
+.container-1,
+.container-2 {
+      width: 90%;
+      margin: 30px auto;
+      background-color: white;
+      border-radius: 4px;
+      box-shadow: 0 0 10px rgb(172, 172, 172);
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+}
+
+.container-1>* {
+      border: 1px solid gray;
+      border-radius: 3px;
+      padding: 20px;
+}
+
+.container-1 .item-1,
+.container-1 .item-4 {
+      flex: 1 1 100%;
+      flex-grow: 1;
+}
+
+.container-1 .item-2 {
+      flex-grow: 7;
+}
+
+.container-1 .item-3 {
+      flex-grow: 3;
+}
+
+.container-2>* {
+      border: 1px solid gray;
+      border-radius: 3px;
+      padding: 20px;
+}
+
+.container-2 .item-1,
+.item-4 {
+      flex: 1 1 100%;
+}
+
+.container-2 .item-2 {
+      flex-grow: 3;
+}
+
+.container-2 .item-3 {
+      flex-grow: 7;
+}
+
+.container-2 .item-1 {
+      order: 1;
+}
+
+.container-2 .item-2 {
+      order: 3;
+}
+
+.container-2 .item-3 {
+      order: 2;
+}
+
+.container-2 .item-4 {
+      order: 4;
+}

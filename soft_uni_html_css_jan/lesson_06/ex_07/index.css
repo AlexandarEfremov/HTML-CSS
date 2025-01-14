@@ -7,3 +7,37 @@ html {
 *:after {
       box-sizing: inherit;
 }
+
+.first-level {
+      display: flex;
+      gap: 5px;
+      padding: 20px;
+      align-items: center;
+}
+
+.green-ball {
+      background-color: green;
+      color: white;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      font-weight: 700;
+}
+
+.green-ball::after {
+      position: absolute;
+      content: "";
+      background-color: green;
+      color: white;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      font-weight: 700;
+      z-index: -1;
+}

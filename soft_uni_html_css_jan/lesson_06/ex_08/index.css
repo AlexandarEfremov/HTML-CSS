@@ -26,4 +26,37 @@ body {
       box-shadow: 0 2px rgb(168, 168, 168);
       padding: 10px;
       display: flex;
+      flex-wrap: wrap;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+      flex: 0 0 100%;
+      display: flex;
+      margin: 5px;
+}
+
+.one>*,
+.two>*,
+.three>*,
+.four>*,
+.five>*,
+.six>* {
+      padding: 5px 10px;
+}
+
+.three>button:first-of-type {
+      padding: 5px 16px;
+}
+
+.five>button:nth-of-type(13) {
+      padding: 5px 40px;
+}
+
+.six>button:nth-of-type(4) {
+      padding: 5px 125px;
 }

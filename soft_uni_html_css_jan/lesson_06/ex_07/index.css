@@ -1,24 +1,50 @@
-* {
-      padding: 0;
-      margin: 0;
+ul li {
+      list-style-type: none;
+      padding: 5px 0;
+      display: flex;
 }
 
-html {
-      box-sizing: border-box;
+ul {
+      padding: 0 0 0 0.5em;
 }
 
-*,
-*:before,
-*:after {
-      box-sizing: inherit;
+details summary::before {
+      content: "+";
+      height: 20px;
+      width: 20px;
+      background-color: green;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      cursor: pointer;
 }
 
-h1 {
-      padding: 10px;
-      margin: 10px;
+details summary {
+      display: flex;
+      gap: 0.2em;
+      cursor: pointer;
+      padding: 3px 0;
 }
 
-.tree {
-      margin: 20px;
-      padding: 10px;
+ul li li::before {
+      display: block;
+      content: "";
+      border: solid #ccc;
+      border-width: 0 0 2px 2px;
+      width: 1em;
+      height: 1.3em;
+      margin-right: 0.5em;
+      border-bottom-left-radius: 5px;
+      margin-right: 0.5em;
+      position: relative;
+      left: -2px;
+}
+
+details[open]>summary::before {
+      content: "-";
+}
+
+ul li li {
+      border-left: 2px solid #ccc;
+      position: relative;
 }

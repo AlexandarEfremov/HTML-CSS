@@ -18,7 +18,7 @@ body {
 }
 
 .keyboard {
-      width: 70%;
+      width: 60%;
       background-color: lightgray;
       border-top: 1px solid rgb(168, 168, 168);
       margin: 50px auto;
@@ -27,6 +27,7 @@ body {
       padding: 10px;
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
 }
 
 .one,
@@ -38,6 +39,7 @@ body {
       flex: 0 0 100%;
       display: flex;
       margin: 5px;
+      gap: 0 10px;
 }
 
 .one>*,
@@ -46,7 +48,9 @@ body {
 .four>*,
 .five>*,
 .six>* {
-      padding: 5px 10px;
+      padding: 10px 10px;
+      flex-grow: 1;
+
 }
 
 .three>button:first-of-type {
@@ -59,4 +63,27 @@ body {
 
 .six>button:nth-of-type(4) {
       padding: 5px 125px;
+}
+
+button {
+      border: 0.5px solid rgb(173, 173, 173);
+      border-radius: 3px;
+      border-bottom: 2px solid rgb(150, 150, 150);
+}
+
+.key.enter::after {
+      content: "aaaaaaa";
+      width: 10px;
+      height: 10px;
+      position: relative;
+      background-color: #efefef;
+      color: #efefef;
+      top: 25px;
+      left: 21px;
+      border-left: 0.5px solid rgb(173, 173, 173);
+      border-right: 0.5px solid rgb(173, 173, 173);
+}
+
+.key.special-color {
+      color: #efefef;
 }

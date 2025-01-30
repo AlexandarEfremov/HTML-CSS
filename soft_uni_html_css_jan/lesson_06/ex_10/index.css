@@ -7,3 +7,23 @@ html {
 *:after {
       box-sizing: inherit;
 }
+
+body {
+      height: 90vh;
+}
+
+.container {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+}
+
+.container>* {
+      border: 2px solid blue;
+      margin: 10px;
+      padding: 15px;
+}
+
+.main-element {
+      flex-grow: 1;
+}

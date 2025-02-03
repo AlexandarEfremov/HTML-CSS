@@ -12,3 +12,28 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
+.container {
+    margin: 1em;
+}
+
+h1,
+h2 {
+    margin: 0.2em 0;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+@media (hover: none) {
+    body::before {
+        display: block;
+        margin: 1em;
+        padding: 15px;
+        background-color: blue;
+        color: #fff;
+        border-radius: 5px;
+        content: 'The device does NOT support hover';
+    }
+}

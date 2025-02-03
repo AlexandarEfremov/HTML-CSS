@@ -37,3 +37,15 @@ p {
         content: 'The device does NOT support hover';
     }
 }
+
+@media (hover: hover) {
+    body::before {
+        display: block;
+        margin: 1em;
+        padding: 15px;
+        background-color: blue;
+        color: #fff;
+        border-radius: 5px;
+        content: 'The device does support hover';
+    }
+}

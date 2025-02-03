@@ -12,3 +12,52 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
+.container {
+    margin: 1em;
+}
+
+h1,
+h2 {
+    margin: 0.2em 0;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+@media (width: 800px) {
+    body::before {
+        display: block;
+        margin: 1em;
+        padding: 15px;
+        background-color: blue;
+        color: #fff;
+        border-radius: 5px;
+        content: 'The viewport width is exactly 800px';
+    }
+}
+
+@media (min-width: 800px) {
+    body::before {
+        display: block;
+        margin: 1em;
+        padding: 15px;
+        background-color: blue;
+        color: #fff;
+        border-radius: 5px;
+        content: 'The viewport width is larger than 800px';
+    }
+}
+
+@media (max-width: 800px) {
+    body::before {
+        display: block;
+        margin: 1em;
+        padding: 15px;
+        background-color: blue;
+        color: #fff;
+        border-radius: 5px;
+        content: 'The viewport width is smaller than 800px';
+    }
+}

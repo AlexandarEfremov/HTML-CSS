@@ -61,3 +61,8 @@ body::before {
         content: 'The viewport height is 800px';
     }
 }
+
+pre {
+    width: 100%;
+    overflow: scroll;
+}

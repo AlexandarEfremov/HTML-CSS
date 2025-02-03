@@ -12,3 +12,52 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
+.container {
+    margin: 1em;
+}
+
+h1,
+h2 {
+    margin: 0.2em 0;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+body::before {
+    background-color: lightskyblue;
+    padding: 0.8em;
+    border-radius: 5px;
+    margin: 1em;
+}
+
+@media (hover: none) {
+    body::before {
+        display: block;
+        content: "This device doesn't support hover";
+
+    }
+}
+
+@media (orientation: landscape) {
+    body::before {
+        display: block;
+        content: 'The device is in landscape orientation';
+    }
+}
+
+@media (width: 600px) {
+    body::before {
+        display: block;
+        content: 'The viewport width is 600px';
+    }
+}
+
+@media (height: 800px) {
+    body::before {
+        display: block;
+        content: 'The viewport height is 800px';
+    }
+}

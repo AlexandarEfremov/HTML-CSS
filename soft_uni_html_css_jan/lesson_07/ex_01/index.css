@@ -14,7 +14,7 @@ html {
 }
 
 body::before {
-    content: "This page is being shown on a screen";
+    content: "";
     display: block;
     background-color: #369;
     color: #fff;

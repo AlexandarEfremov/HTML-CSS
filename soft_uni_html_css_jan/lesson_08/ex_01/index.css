@@ -12,3 +12,123 @@ html {
 *:after {
       box-sizing: inherit;
 }
+
+@media only screen and (min-width: 400px) {
+      body {
+            background-color: lightgray;
+      }
+
+      .container {
+            background-color: white;
+            margin: 3em auto;
+            width: 90%;
+            border-radius: 0.3em;
+            box-shadow: 0 0 5px 1px gray;
+      }
+
+      section {
+            padding: 1em;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+      }
+
+      section>* {
+            padding: 35px;
+            flex: 1 0 100%;
+            font-size: 2em;
+            border: 1px solid lightgray;
+      }
+}
+
+@media only screen and (min-width: 600px) {
+      body {
+            background-color: lightgray;
+      }
+
+      .container {
+            background-color: white;
+            margin: 3em auto;
+            width: 90%;
+            border-radius: 0.3em;
+            box-shadow: 0 0 5px 1px gray;
+      }
+
+      section {
+            padding: 1em;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+      }
+
+      section>* {
+            padding: 30px;
+            flex: 1 0 100%;
+            font-size: 1.5em;
+            border: 1px solid lightgray;
+      }
+}
+
+@media only screen and (min-width: 800px) {
+      body {
+            background-color: lightgray;
+      }
+
+      .container {
+            background-color: white;
+            margin: 3em auto;
+            width: 90%;
+            border-radius: 0.3em;
+            box-shadow: 0 0 5px 1px gray;
+      }
+
+      section {
+            padding: 1em;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+      }
+
+      section>* {
+            padding: 25px;
+            flex: 1 0 100%;
+            font-size: 1em;
+            border: 1px solid lightgray;
+      }
+}
+
+@media only screen and (min-width: 1200px) {
+      body {
+            background-color: lightgray;
+      }
+
+      .container {
+            background-color: white;
+            margin: 3em auto;
+            width: 90%;
+            border-radius: 0.3em;
+            box-shadow: 0 0 5px 1px gray;
+      }
+
+      section {
+            padding: 1em;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+      }
+
+      section>* {
+            padding: 25px;
+            flex: 1 0 100%;
+            font-size: 1em;
+            border: 1px solid lightgray;
+      }
+
+      main {
+            flex: 1 0 65%;
+      }
+
+      aside {
+            flex: 1 0 25%;
+      }
+}

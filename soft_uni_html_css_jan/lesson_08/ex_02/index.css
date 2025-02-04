@@ -12,3 +12,83 @@ html {
 *:after {
       box-sizing: inherit;
 }
+
+body {
+      background-color: lightgray;
+}
+
+.container {
+      margin: 1em;
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 0 5px 5px gray;
+      width: 90%;
+}
+
+.h-class {
+      color: green;
+      padding: 1em 1.5em;
+}
+
+.navbar {
+      background-color: rgb(62, 62, 62);
+      color: white;
+}
+
+.navbar>* {
+      text-align: center;
+      padding: 1em;
+      border-bottom: 1px solid gray;
+      font-size: 20px;
+      font-weight: 300;
+}
+
+.main-site {
+      margin: 3em;
+}
+
+h2,
+p {
+      margin: 0.6em 0;
+}
+
+
+footer {
+      background-color: rgb(62, 62, 62);
+      color: white;
+      text-align: center;
+      padding: 1em;
+      font-size: 20px;
+      font-weight: 300;
+}
+
+@media only screen and (max-width: 400px) {
+      .container {
+            margin: 1em auto;
+      }
+}
+
+@media only screen and (min-width: 1000px) {
+      .container {
+            margin: 1em auto;
+      }
+
+      .navbar {
+            display: flex;
+      }
+
+      .navbar>* {
+            flex-grow: 1;
+            padding: 0.5em;
+            border: none;
+      }
+
+      .main-site {
+            display: flex;
+            gap: 3em;
+      }
+
+      footer {
+            padding: 0.5em;
+      }
+}

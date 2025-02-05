@@ -78,7 +78,7 @@ footer {
       }
 
       .navbar>* {
-            flex-grow: 1;
+            flex: 1 1 auto;
             padding: 0.5em;
             border: none;
       }

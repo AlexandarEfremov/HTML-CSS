@@ -1,3 +1,5 @@
+@import "../typography.css";
+
 * {
       padding: 0;
       margin: 0;
@@ -11,4 +13,369 @@ html {
 *:before,
 *:after {
       box-sizing: inherit;
+}
+
+body {
+      background-color: lightgray;
+}
+
+.container {
+      margin: 1em;
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 0 5px 1px gray;
+      width: 90%;
+      margin: 2em auto;
+      padding: 2em;
+}
+
+@media only screen and (max-width: 400px) {
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+            margin: 0.3em 0;
+      }
+
+      hr {
+            margin: 2em 0;
+      }
+
+      h1 {
+            font-size: 2.2em;
+      }
+
+      h2 {
+            font-size: 1.6em;
+      }
+
+      h3 {
+            font-size: 1.4em;
+      }
+
+      h4 {
+            font-size: 1.2em;
+      }
+
+      h5 {
+            font-size: 1em;
+      }
+
+      h6 {
+            font-size: 0.8em;
+      }
+
+      ul,
+      ol {
+            margin: 0 2.5em;
+      }
+
+      table {
+            width: 100%;
+            margin: 1.5em 0;
+      }
+
+      table,
+      th {
+            border: 1px solid lightgray;
+            border-collapse: collapse;
+            padding: 0.3em;
+      }
+
+      td {
+            border: 1px solid lightgray;
+            padding: 0.3em;
+      }
+
+      th {
+            text-align: left;
+            background-color: rgb(195, 195, 195);
+      }
+
+      tr:nth-of-type(2n) {
+            background-color: rgb(241, 241, 241);
+      }
+      .quote {
+            border-left: 3px solid lightgray;
+            padding-left: 2em;
+            margin-left: 2.5em;
+            margin: 1em;
+      }
+
+      .quote p {
+            font-style: italic;
+      }
+
+      .author {
+            text-align: right;
+      }
+}
+
+@media only screen and (min-width: 400px) {
+
+      h1, h2, h3, h4, h5, h6 {
+            margin: 0.3em 0;
+      }
+
+      hr {
+            margin: 2em 0;
+      }
+
+      h1 {
+            font-size: 2.4em;
+      }
+
+      h2 {
+            font-size: 1.8em;
+      }
+
+      h3 {
+            font-size: 1.6em;
+      }
+
+      h4 {
+            font-size: 1.4em;
+      }
+
+      h5 {
+            font-size: 1.2em;
+      }
+
+      h6 {
+            font-size: 1em;
+      }
+
+      ul,
+      ol {
+            margin: 0 2.5em;
+      }
+
+      table {
+            width: 100%;
+            margin: 1.5em 0;
+      }
+
+      table,
+      th {
+            border: 1px solid lightgray;
+            border-collapse: collapse;
+            padding: 0.3em;
+      }
+
+      td {
+            border: 1px solid lightgray;
+            padding: 0.3em;
+      }
+
+      th {
+            text-align: left;
+            background-color: rgb(195, 195, 195);
+      }
+
+      tr:nth-of-type(2n) {
+            background-color: rgb(241, 241, 241);
+      }
+      .quote {
+            border-left: 3px solid lightgray;
+            padding-left: 2em;
+            margin-left: 2.5em;
+            margin: 1em;
+      }
+
+      .quote p {
+            font-style: italic;
+      }
+
+      .author {
+            text-align: right;
+      }
+}
+
+@media only screen and (min-width: 800px) {
+
+      h1, h2, h3, h4, h5, h6 {
+            margin: 0.3em 0;
+      }
+
+      hr {
+            margin: 2em 0;
+      }
+
+      h1 {
+            font-size: 2.6em;
+      }
+
+      h2 {
+            font-size: 2em;
+      }
+
+      h3 {
+            font-size: 1.8em;
+      }
+
+      h4 {
+            font-size: 1.6em;
+      }
+
+      h5 {
+            font-size: 1.4em;
+      }
+
+      h6 {
+            font-size: 1.2em;
+      }
+
+      ul,
+      ol {
+            margin: 0 2.5em;
+      }
+
+      table {
+            width: 100%;
+            margin: 1.5em 0;
+      }
+
+      table,
+      th {
+            border: 1px solid lightgray;
+            border-collapse: collapse;
+            padding: 0.3em;
+      }
+
+      td {
+            border: 1px solid lightgray;
+            padding: 0.3em;
+      }
+
+      th {
+            text-align: left;
+            background-color: rgb(195, 195, 195);
+      }
+
+      tr:nth-of-type(2n) {
+            background-color: rgb(241, 241, 241);
+      }
+      .quote {
+            border-left: 3px solid lightgray;
+            padding-left: 2em;
+            margin-left: 2.5em;
+            margin: 1em;
+      }
+
+      .quote p {
+            font-style: italic;
+      }
+
+      .author {
+            text-align: right;
+      }
+
+      p {
+            font-size: 1.4em;
+      }
+
+      ul, ol {
+            font-size: 18px;
+            font-weight: 300;
+      }
+
+      th, td {
+            font-size: 1.4em;
+      }
+}
+
+@media only screen and (min-width: 1200px) {
+
+      h1, h2, h3, h4, h5, h6 {
+            margin: 0.3em 0;
+      }
+
+      hr {
+            margin: 2em 0;
+      }
+
+      h1 {
+            font-size: 2.8em;
+      }
+
+      h2 {
+            font-size: 2.2em;
+      }
+
+      h3 {
+            font-size: 2em;
+      }
+
+      h4 {
+            font-size: 1.8em;
+      }
+
+      h5 {
+            font-size: 1.6em;
+      }
+
+      h6 {
+            font-size: 1.4em;
+      }
+
+      ul,
+      ol {
+            margin: 0 2.5em;
+      }
+
+      table {
+            width: 100%;
+            margin: 1.5em 0;
+      }
+
+      table,
+      th {
+            border: 1px solid lightgray;
+            border-collapse: collapse;
+            padding: 0.3em;
+      }
+
+      td {
+            border: 1px solid lightgray;
+            padding: 0.3em;
+      }
+
+      th {
+            text-align: left;
+            background-color: rgb(195, 195, 195);
+      }
+
+      tr:nth-of-type(2n) {
+            background-color: rgb(241, 241, 241);
+      }
+      .quote {
+            border-left: 3px solid lightgray;
+            padding-left: 2em;
+            margin-left: 2.5em;
+            margin: 1em;
+      }
+
+      .quote p {
+            font-style: italic;
+      }
+
+      .author {
+            text-align: right;
+      }
+
+      p {
+            font-size: 1.6em;
+      }
+
+      ul, ol {
+            font-size: 22px;
+            font-weight: 300;
+      }
+
+      th, td {
+            font-size: 1.6em;
+      }
 }

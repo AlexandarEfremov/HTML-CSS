@@ -67,7 +67,7 @@ body {
             display: none;
       }
 
-      .navigation-items::before {
+      details>summary::before {
             content: "Open Menu";
             background-color: rgb(223, 222, 222);
             color: black;
@@ -77,10 +77,17 @@ body {
             flex: 1 1 1em;
       }
 
-      .navigation-items::before:hover {
+      details>summary:hover::before {
             background-color: gray;
             color: white;
             cursor: pointer;
       }
 
+      details>summary {
+            list-style: none;
+      }
+
+      details[open] p {
+            background-color: red;
+      }
 }

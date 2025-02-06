@@ -1,3 +1,5 @@
+@import url(../typography.css);
+
 * {
       padding: 0;
       margin: 0;
@@ -11,4 +13,248 @@ html {
 *:before,
 *:after {
       box-sizing: inherit;
+}
+
+body {
+      background-color: lightgray;
+}
+
+.card-one, .card-two {
+      background-color: white;
+      width: 90%;
+      margin: 2em auto;
+      border-radius: 5px;
+      box-shadow: 0 0 10px 1px gray;
+}
+
+
+
+@media only screen and (min-width: 800px) {
+
+      h1, h2, h3, h4, h5, h6 {
+            padding: 0.5em;
+      }
+
+      .table-one, .table-two {
+            border-collapse: collapse;
+            width: 100%;
+      }
+
+      th, td {
+            padding: 1em;
+            font-size: 1.5em;
+      }
+
+      th {
+            background-color: lightgray;
+            text-align: left;
+      }
+      tr {
+            border: 1px solid gray;
+      }
+
+}
+
+@media only screen and (max-width: 799px) {
+
+      h1, h2, h3, h4, h5, h6 {
+            padding: 0.5em;
+      }
+
+      h1 {
+            font-size: 2.6em;
+      }
+
+      h2 {
+            font-size: 2em;
+      }
+
+      h3 {
+            font-size: 1.6em;
+      }
+
+      h4 {
+            font-size: 1.2em;
+      }
+
+      h5 {
+            font-size: 1em;
+      }
+
+      h6 {
+            font-size: 0.8em;
+      }
+
+      th {
+            display: none;
+      }
+
+      td {
+            display: block;
+            font-size: 20px;
+            padding: 1em;
+      }
+
+      table {
+            border-collapse: collapse;
+            width: 100%;
+      }
+
+      td {
+            border-bottom: 1px solid gray;
+      }
+
+      .table-one .last td:nth-of-type(3) {
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+      }
+
+      .table-two .last td:nth-of-type(3) {
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+      }
+
+      tr {
+            border-top: 2px solid black;
+      }
+
+      .title-one::before {
+            content: "Title 1";
+            font-weight: 700;
+            font-size: 20px;
+            margin-right: 8em;
+      }
+      .title-long::before {
+            content: "Title 2 is a very lon..";
+            font-weight: 700;
+            font-size: 20px;
+            margin-right: 1.3em;
+      }
+      .title-three::before {
+            content: "Title 3";
+            font-weight: 700;
+            font-size: 20px;
+            margin-right: 8em;
+      }
+
+      .header-one::before {
+            content: "Header 1";
+            font-weight: 700;
+            font-size: 20px;
+            margin-right: 6.6em;
+      }
+      .header-two::before {
+            content: "Header 2";
+            font-weight: 700;
+            font-size: 20px;
+            margin-right: 6.6em;
+      }
+      .header-three::before {
+            content: "Header 3";
+            font-weight: 700;
+            font-size: 20px;
+            margin-right: 6.6em;
+      }
+}
+
+@media only screen and (max-width: 599px) {
+
+      h1, h2, h3, h4, h5, h6 {
+            padding: 0.5em;
+      }
+
+      h1 {
+            font-size: 2.4em;
+      }
+
+      h2 {
+            font-size: 1.8em;
+      }
+
+      h3 {
+            font-size: 1.4em;
+      }
+
+      h4 {
+            font-size: 1em;
+      }
+
+      h5 {
+            font-size: 0.8em;
+      }
+
+      h6 {
+            font-size: 0.6em;
+      }
+
+      th {
+            display: none;
+      }
+
+      td {
+            display: block;
+            font-size: 18px;
+            padding: 1em;
+      }
+
+      table {
+            border-collapse: collapse;
+            width: 100%;
+      }
+
+      td {
+            border-bottom: 1px solid gray;
+      }
+
+      .table-one .last td:nth-of-type(3) {
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+      }
+
+      .table-two .last td:nth-of-type(3) {
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+      }
+
+      tr {
+            border-top: 2px solid black;
+      }
+
+      .title-one::before {
+            content: "Title 1";
+            font-weight: 700;
+            font-size: 20px;
+            margin-right: 4em;
+      }
+      .title-long::before {
+            content: "Title 2 is..";
+            font-weight: 700;
+            font-size: 20px;
+            margin-right: 2.3em;
+      }
+      .title-three::before {
+            content: "Title 3";
+            font-weight: 700;
+            font-size: 20px;
+            margin-right: 4em;
+      }
+
+      .header-one::before {
+            content: "Header 1";
+            font-weight: 700;
+            font-size: 20px;
+            margin-right: 2.7em;
+      }
+      .header-two::before {
+            content: "Header 2";
+            font-weight: 700;
+            font-size: 20px;
+            margin-right: 2.7em;
+      }
+      .header-three::before {
+            content: "Header 3";
+            font-weight: 700;
+            font-size: 20px;
+            margin-right: 2.7em;
+      }
 }

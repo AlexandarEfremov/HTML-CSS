@@ -1,14 +1,90 @@
-* {
-      padding: 0;
-      margin: 0;
-}
-
 html {
       box-sizing: border-box;
 }
+
 
 *,
 *:before,
 *:after {
       box-sizing: inherit;
+}
+
+body {
+      background-color: lightgray;
+}
+
+.parent {
+      width: 80%;
+      margin: 70px auto;
+      display: flex;
+      gap: 20px;
+}
+
+i {
+      font-size: 40px;
+}
+
+.right,
+.left>* {
+      background-color: white;
+}
+
+.left {
+      flex: 70%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+}
+
+.right {
+      flex: 30%;
+}
+
+.left>*,
+.right>* {
+      flex: 100%;
+      padding: 20px;
+}
+
+.circle {
+      height: 140px;
+      width: 140px;
+      border-radius: 50%;
+      background-color: green;
+      box-shadow: 0 0 10px gray;
+}
+
+.box-top-left,
+.box-bottom-left {
+      display: flex;
+      align-items: center;
+      border-radius: 4px;
+}
+
+.box-right-side {
+      display: flex;
+      flex-direction: column;
+
+}
+
+.geometry-right .circle {
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+      background-color: green;
+      box-shadow: 0 0 10px gray;
+}
+
+.right {
+      border-radius: 4px;
+}
+
+.one>*,
+.two>* {
+      margin-left: 40px;
+      width: 80%;
+}
+
+.grey {
+      color: gray
 }

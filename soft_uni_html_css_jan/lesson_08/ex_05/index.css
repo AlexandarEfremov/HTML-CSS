@@ -12,3 +12,75 @@ html {
 *:after {
       box-sizing: inherit;
 }
+
+body {
+      background-color: lightgray;
+}
+
+.navbar {
+      background-color: white;
+      width: 90%;
+      margin: 2em auto;
+      border-radius: 5px;
+      box-shadow: 0 0 10px 1px gray;
+      display: flex;
+}
+
+@media only screen and (min-width: 670px) {
+      .navbar {
+            justify-content: space-between;
+      }
+      .navbar>* {
+            padding: 1em;
+      }
+      .navigation-items a {
+            text-decoration: none;
+            color: black;
+            background-color: rgb(223, 222, 222);
+            padding: 0.7em;
+            border-radius: 5px;
+      }
+
+      .navigation-items a:hover {
+            background-color: gray;
+            cursor: pointer;
+            color: white;
+      }
+
+      .navigation-items {
+            display: flex;
+            gap: 1em;
+      }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 669px) {
+      .navbar {
+            justify-content: space-between;
+      }
+      .navbar h1 {
+            align-content: center;
+      }
+      .navbar>* {
+            padding: 1em;
+      }
+      .navigation-items a {
+            display: none;
+      }
+
+      .navigation-items::before {
+            content: "Open Menu";
+            background-color: rgb(223, 222, 222);
+            color: black;
+            padding: 1em;
+            border-radius: 5px;
+            display: flex;
+            flex: 1 1 1em;
+      }
+
+      .navigation-items::before:hover {
+            background-color: gray;
+            color: white;
+            cursor: pointer;
+      }
+
+}

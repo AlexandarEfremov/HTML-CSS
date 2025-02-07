@@ -12,3 +12,88 @@ html {
 *:after {
       box-sizing: inherit;
 }
+
+body {
+      background-color: lightgray;
+}
+
+.container {
+      background-color: white;
+      margin: 3em auto;
+      width: 90%;
+      border-radius: 5px;
+      box-shadow: 0 0 10px 1px gray;
+      padding: 1.5em;
+}
+
+.gray-card {
+      background-color: lightgray;
+      width: 100%;
+      height: 100px;
+      border: 1px solid rgb(160, 160, 160);
+      border-radius: 5px;
+      margin-bottom: 1em;
+}
+
+h1 {
+      font-size: 30px;
+      font-weight: 600;
+}
+
+p.bolded {
+      font-size: 22px;
+      color: rgb(19, 18, 18);
+      font-weight: 500;
+}
+
+article p {
+      margin: 1em 0;
+      font-size: 1.2em;
+}
+
+a.purple-link,
+a.gray-link {
+      padding: 0.6em 1em;
+      text-decoration: none;
+}
+
+a.purple-link:hover,
+a.gray-link:hover {
+      cursor: pointer;
+      opacity: 0.6;
+}
+
+a.purple-link {
+      background-color: blueviolet;
+      border-radius: 5px;
+      color: white;
+      font-weight: 600;
+      margin-right: 1em;
+}
+
+a.gray-link {
+      background-color: lightgray;
+      border-radius: 5px;
+      color: black;
+      font-weight: 600;
+}
+
+@media only screen and (min-width: 800px) {
+      .container {
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 1em;
+      }
+
+      section.gray-card {
+            height: auto;
+            aspect-ratio: 1/1;
+            margin: 0;
+      }
+
+      section.main-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+      }
+}

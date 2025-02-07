@@ -1,3 +1,5 @@
+@import url("../typography.css");
+
 * {
       padding: 0;
       margin: 0;
@@ -11,4 +13,48 @@ html {
 *:before,
 *:after {
       box-sizing: inherit;
+}
+
+body {
+      background-color: rgb(232, 231, 231);
+}
+
+.site {
+      border: 1px solid gray;
+      margin: 1.5em;
+      padding: 1.5em;
+      border-radius: 5px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+}
+
+.site div, .site article section {
+      background-color: white;
+      margin: 1em 0;
+      border-radius: 5px;
+      padding: 1em;
+}
+
+.site h2 {
+      font-size: 1.2em;
+      text-align: center;
+}
+
+article:nth-of-type(1) {
+      width: 50%;
+      align-self: flex-end;
+      outline: 2px solid gray;
+      padding-left: 1em;
+}
+
+article:nth-of-type(1) section {
+      background-color: red;
+}
+
+article:nth-of-type(2) {
+      width: 50%;
+      align-self: flex-start;
+      border: 2px solid gray;
+      padding-right: 1em;
 }

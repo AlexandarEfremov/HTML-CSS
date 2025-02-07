@@ -12,3 +12,50 @@ html {
 *:after {
       box-sizing: inherit;
 }
+
+h1 {
+      padding-bottom: 0.2em;
+}
+
+p {
+      padding-top: 0.2em;
+}
+
+
+.container {
+      display: flex;
+      margin: 2em auto;
+      width: 90%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+}
+
+img {
+      border-radius: 5px;
+}
+.container section {
+      border: 2px solid lightgray;
+      padding: 1em;
+      border-radius: 5px;
+      background-color: rgb(241, 238, 238);
+}
+.card {
+      max-width: 400px;
+      position: relative;
+}
+
+.course-desc {
+      background-color: white;
+      width: 95%;
+      border-radius: 5px;
+      margin: 0 auto;
+      padding: 1em;
+      box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+      position: absolute;
+      left: 10px;
+      bottom: 80px;
+}
+
+.article-details {
+      margin-top: 6em;
+}

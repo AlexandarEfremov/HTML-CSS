@@ -88,3 +88,55 @@ i {
 .grey {
       color: gray
 }
+
+@media only screen and (max-width: 599px) {
+      .parent {
+            display: flex;
+            flex-wrap: wrap;
+      }
+
+      .parent>* {
+            flex: 1 1 100%;
+      }
+
+      .right .box-right-side {
+            display: flex;
+            flex-direction: row;
+      }
+
+      .geometry-right .circle {
+            height: 140px;
+            width: 140px;
+            border-radius: 50%;
+            background-color: green;
+            box-shadow: 0 0 10px gray;
+      }
+
+      .three>* {
+            margin-left: 40px;
+            width: 80%;
+      }
+
+      .box-right-side {
+            display: flex;
+            align-items: center;
+            border-radius: 4px;
+      }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+      .circle,
+      .geometry-right .circle {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: green;
+            box-shadow: 0 0 10px gray;
+      }
+
+      .box-top-left,
+      .box-bottom-left {
+            display: flex;
+            gap: 2em;
+      }
+}

@@ -12,3 +12,34 @@ html {
 *:after {
       box-sizing: inherit;
 }
+
+body {
+      background-color: lightgray;
+}
+
+.fancy-numbers {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin: 2em auto;
+      max-width: 800px;
+      list-style: none;
+      gap: 1em;
+}
+
+.fancy-numbers li {
+      background-color: white;
+      margin: 0 2em;
+      padding: 1em;
+      border-radius: 5px;
+      box-shadow: -1px 1px 10px gray;
+}
+
+.fancy-numbers li span.title {
+      display: block;
+      font-weight: bold;
+}
+
+.fancy-numbers li span.desc {
+      display: block;
+}

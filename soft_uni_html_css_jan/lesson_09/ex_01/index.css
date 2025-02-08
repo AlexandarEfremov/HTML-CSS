@@ -12,3 +12,21 @@ html {
 *:after {
       box-sizing: inherit;
 }
+
+body {
+      padding: 2em;
+}
+
+h2 {
+      margin-top: 2em;
+}
+p.get-method::after {
+      content: '<form action="#" method="get">';
+}
+
+.code-container {
+      background-color: lightgray;
+      padding: 1em;
+      border-radius: 5px;
+      margin: 1em 0;
+}

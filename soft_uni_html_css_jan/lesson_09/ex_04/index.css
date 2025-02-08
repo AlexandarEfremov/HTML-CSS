@@ -12,3 +12,23 @@ html {
 *:after {
       box-sizing: inherit;
 }
+
+body {
+      padding: 1.5em;
+}
+
+h1 {
+      margin-top: 1em;
+}
+
+.code-container {
+      background-color: lightgray;
+      padding: 1em;
+      border-radius: 5px;
+      margin: 1em 0;
+}
+
+pre {
+      padding: 0;
+      margin: 0;
+}

@@ -27,6 +27,7 @@ p {
       margin: 2em auto;
       width: 90%;
       flex-wrap: wrap;
+      gap: 1em;
       justify-content: space-between;
 }
 
@@ -53,9 +54,59 @@ img {
       box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
       position: absolute;
       left: 10px;
-      bottom: 80px;
+      bottom: 280px;
 }
 
 .article-details {
-      margin-top: 6em;
+      margin: 5em 1em 1em 1em;
+}
+
+.flex-grouping {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1em;
+}
+
+.flex-grouping p {
+      color: rgb(18, 207, 18);
+      font-weight: 600;
+}
+
+.group-one, .group-two {
+      background-color: white;
+      padding: 0.5em;
+      border-radius: 5px;
+      box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+      margin: 0.6em 0;
+      padding: 0.7em;
+      display: flex;
+      justify-content: space-between;
+}
+
+.beginning-section p, .ending-section p, .price-section p {
+      padding: 0.3em 0;
+}
+
+.price-section p {
+      font-weight: 800;
+}
+
+.pricing-tab {
+      padding: 1em 0.5em;
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+      border-radius: 5px;
+      margin-top: 1.4em;
+}
+
+.pricing-tab span {
+      color: rgb(18, 207, 18);
+}
+
+.pricing-tab span:nth-child(1) {
+      font-weight: 800;
+      font-size: 1.8em;
 }

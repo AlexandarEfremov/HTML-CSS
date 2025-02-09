@@ -5,11 +5,34 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="index.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
       <title>Document</title>
 </head>
 
 <body>
+      <div class="card">
+            <h2 class="login">Login</h2>
 
+
+            <form action="#" method="post">
+                  <p class="flex">
+                        <label for="email" class="aster">Email</label>
+                        <i class="fa-solid fa-envelope"></i>
+                  </p>
+                  <input type="email" name="email" id="email">
+                  <span class="example">example: konstantin.dankov@gmail.com</span>
+
+                  <p class="flex">
+                        <label for="pass" class="aster">Password</label>
+                        <i class="fa-solid fa-key"></i>
+                  </p>
+                  <input type="password" name="pass" id="pass">
+                  <span class="example">minimum 6 characters, letters and numbers, at least 1 special character</span>
+                  <p>
+                        <button class="login-button">Login</button>
+                  </p>
+            </form>
+      </div>
 </body>
 
 </html>

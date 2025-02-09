@@ -1,0 +1,53 @@
+* {
+      padding: 0;
+      margin: 0;
+}
+
+html {
+      box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+      box-sizing: inherit;
+}
+
+body {
+      background-color: lightgray;
+}
+
+.card {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      min-width: 240px;
+}
+
+.card form {
+      background-color: white;
+      border-radius: 5px;
+      padding: 1em;
+      box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+      display: flex;
+      flex-wrap: wrap;
+}
+
+.card form>* {
+      flex-grow: 1;
+      margin: 0.6em;
+      padding: 0.6em;
+}
+
+.card form button {
+      background-color: orange;
+      color: white;
+      border: none;
+      font-weight: bold;
+}
+
+.card form input {
+      background-color: rgb(229, 228, 228);
+      border: none;
+}

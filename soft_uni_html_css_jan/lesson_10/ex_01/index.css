@@ -56,3 +56,11 @@ span.aster {
       position: relative;
       bottom: 5px;
 }
+
+h2.login::after {
+      content: "";
+      display: block;
+      border: 1px solid lightgray;
+      width: 120px;
+      margin: 0.8em 0;
+}

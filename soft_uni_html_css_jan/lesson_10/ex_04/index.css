@@ -1,0 +1,75 @@
+body {
+      background-color: lightgray;
+      height: 100vh;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+}
+
+p {
+      position: relative;
+}
+
+.card {
+      background-color: white;
+      border-radius: 5px;
+      padding: 1em;
+      width: 50%;
+      box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+}
+
+input[type="email"], input[type="password"] {
+      display: block;
+      width: 100%;
+      border: none;
+      border-bottom: 2px solid gray;
+      padding: 0.2em 0;
+}
+
+h1 {
+      font-size: 1.6em;
+      display: inline-block;
+      padding: 0.3em 0;
+      border-bottom: 2px solid lightgray;
+      margin: 0.5em 0;
+}
+
+form p span {
+      display: inline-block;
+      opacity: 0.5;
+      margin-top: 0.1em;
+}
+
+form button {
+      background-color: orange;
+      border: none;
+      width: 100%;
+      padding: 0.8em;
+      color: white;
+      font-weight: 700;
+      border-radius: 5px;
+}
+
+.form-class {
+      display: flex;
+      flex-direction: column;
+}
+
+.form-class label {
+      order: -1;
+}
+
+label {
+      position: absolute;
+      transition: translate 0.2s ease-in;
+      padding-left: 0.3em;
+}
+
+input::placeholder {
+      color: transparent;
+}
+
+input:not(:placeholder-shown)~label {
+      translate: 0 -1.3em;
+}

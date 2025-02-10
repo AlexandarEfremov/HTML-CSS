@@ -10,10 +10,11 @@
 
 <body>
       <div class="card">
-            <h1>Login</h1>
+            <h1>Registration</h1>
+            <form action="#" method="post">
+                  <fieldset class="form-group">
+                        <legend>Login Information</legend>
 
-            <div class="form-group">
-                  <form action="#">
                         <p class="form-class">
                               <input type="email" name="email" id="email" placeholder="Email">
                               <label for="email">Email</label>
@@ -24,9 +25,19 @@
                               <label for="password">Password</label>
                               <span>minimum 6 characters, letters and numbers, as least 1 special character</span>
                         </p>
-                        <button>Login</button>
-                  </form>
-            </div>
+                  </fieldset>
+
+                  <fieldset class="form-group">
+                        <legend>Additional Information</legend>
+
+                        <p class="form-class">
+                              <input type="date" name="date" id="date" placeholder="Password">
+                              <label class="date-label" for="date">Date of Birth</label>
+                              <span>example: 01/01/1990</span>
+                        </p>
+                  </fieldset>
+                  <button>Login</button>
+            </form>
       </div>
 </body>
 

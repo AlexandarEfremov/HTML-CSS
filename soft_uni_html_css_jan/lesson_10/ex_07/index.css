@@ -1,0 +1,11 @@
+body {
+      border: 4px solid green;
+      margin: 0;
+      padding: 1em;
+}
+
+.card>* {
+      border: 2px solid blue;
+      padding: 0 10em;
+      margin-bottom: 1em;
+}

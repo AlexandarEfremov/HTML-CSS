@@ -48,7 +48,6 @@ input[type="checkbox"]::after {
       display: block;
       content: "";
       position: absolute;
-      bottom: -9em;
       width: 1.5em;
       aspect-ratio: 1/1;
       background-color: white;

@@ -1,2 +1,103 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #C1BBBB;
+}
+
+.top-block {
+    margin: 2em auto;
+    width: 80%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #696969;
+    font-weight: 900;
+}
+
+nav ul li a:focus {
+    padding: 0.4em 0.8em;
+    background-color: #696969;
+    color: white;
+    border-radius: 4px;
+}
+
+.main-logo {
+    background-color: #59A290;
+    font-family: 'Oleo Script', serif;
+    color: white;
+    font-size: 1.5em;
+    padding: 0.5px 6px;
+    border-radius: 4px;
+}
+
+.softuni {
+    font-size: 0.6em;
+    font-weight: 700;
+}
+
+.site-main {
+    margin: 1em 0;
+}
+
+.site-main>* {
+    background-color: white;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+.site-main .site-header {
+    display: flex;
+    background-color: white;
+    padding: 1.4em;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.site-header-left {
+    width: 15em;
+}
+
+.site-header-left h1 {
+    line-height: 0.9em;
+    margin-bottom: 0.2em;
+}
+
+.site-main .site-header-right {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+}
+
+.site-main .site-header-right a {
+    border: 1px solid black;
+    padding: 0.5em 1.5em;
+}

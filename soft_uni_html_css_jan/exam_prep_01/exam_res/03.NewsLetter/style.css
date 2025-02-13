@@ -32,6 +32,9 @@ nav {
     align-items: baseline;
 }
 
+.logos-main {
+    margin-right: 1em;
+}
 nav ul {
     display: flex;
     list-style: none;
@@ -70,7 +73,7 @@ nav ul li a:focus {
 }
 
 .site-main>* {
-    background-color: white;
+    box-shadow: 0 0 1em 1px rgb(183, 182, 182);
     border-radius: 4px;
     margin-bottom: 1em;
 }
@@ -84,6 +87,9 @@ nav ul li a:focus {
 
 .site-header-left {
     width: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .site-header-left h1 {
@@ -98,6 +104,55 @@ nav ul li a:focus {
 }
 
 .site-main .site-header-right a {
-    border: 1px solid black;
-    padding: 0.5em 1.5em;
+    width: 10em;
+    border-radius: 4px;
+    background-color: #F2F2F2;
+    text-align: left;
+    padding: 0.6em 0.8em;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: black;
+    font-weight: 700;
+}
+
+.site-main .site-header-right a:nth-child(1):after {
+    content: "\f35a";
+    font-family: "Font Awesome 6 Free";
+    color: black;
+}
+
+.site-main .site-header-right a:nth-child(2):after {
+    content: "\3f";
+    font-family: "Font Awesome 6 Free";
+    color: black;
+}
+
+.site-main .site-header-right a:hover,
+.site-main .site-header-right a:nth-child(1):hover:after,
+.site-main .site-header-right a:nth-child(2):hover:after {
+    background-color: #288CC3;
+    color: white;
+    transition: 0.4s;
+}
+
+.article-main-container {
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+}
+
+img {
+    max-width: 10em;
+    height: 10em;
+    margin: 1em auto;
+}
+.article-main-container>* {
+    background-color: white;
+    border-radius: 4px;
+}
+
+.img-container {
+    display: flex;
 }

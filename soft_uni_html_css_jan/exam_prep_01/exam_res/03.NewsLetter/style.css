@@ -144,9 +144,9 @@ nav ul li a:focus {
 }
 
 img {
-    max-width: 10em;
-    height: 10em;
-    margin: 1em auto;
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 }
 .article-main-container>* {
     background-color: white;
@@ -155,4 +155,105 @@ img {
 
 .img-container {
     display: flex;
+}
+
+article .text-container {
+    margin: 2em 1em;
+}
+
+h3 {
+    padding-bottom: 0.6em;
+}
+
+article .text-container p {
+    opacity: 0.6;
+    line-height: 1.5em;
+}
+
+.extended-main-container {
+    background-color: white;
+}
+
+.extended-main-container .inner-container {
+    width: 80%;
+    margin: 2em auto;
+    padding: 2em 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.block-one {
+    width: 100%;
+    position: relative;
+}
+
+.extended-main-container .inner-container .block-one .color-cards ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-bottom: 0.3em;
+}
+
+.block-one .color-cards ul li {
+    max-width: 120px;
+}
+
+.block-one .color-cards ul li img {
+    border-radius: 4px;
+}
+
+.extended-main-container .inner-container .block-one {
+    flex-grow: 1;
+}
+
+.extended-main-container .inner-container .block-two {
+    flex-grow: 2.5;
+}
+
+.more {
+    display: inline-block;
+    background-color: #288CC3;
+    border-radius: 4px;
+    padding: 0.6em 1.2em;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 1em;
+}
+
+h2 {
+    padding-bottom: 0.6em;
+}
+
+p {
+    margin-bottom: 0.8em;
+}
+
+.parent-container {
+    margin: 1em auto;
+    width: 80%;
+    display: flex;
+}
+
+.bolded {
+    font-weight: 700;
+}
+
+.footer-container a {
+    color: black;
+    line-height: 1em;
+}
+
+.logo-icons {
+    list-style-type: none;
+    display: flex;
+    font-size: 2em;
+    gap: 0.1em;
+}
+
+.copyright {
+    text-align: center;
+    margin: 3em auto;
 }

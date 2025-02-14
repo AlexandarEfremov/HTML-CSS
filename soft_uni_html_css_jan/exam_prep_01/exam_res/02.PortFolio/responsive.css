@@ -1,6 +1,44 @@
-section {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+@media only screen and (width <=600px) {
+      nav ul {
+            display: none;
+      }
+
+      .checkbtn {
+            display: block;
+            order: 1;
+      }
+
+      .site-header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+      }
+
+      .site-header>i, h1 {
+            text-align: initial;
+            position: static;
+      }
+
+      .about {
+            display: flex;
+            gap: 1em;
+            justify-content: center;
+            align-items: center;
+      }
+
+      .about-header {
+            text-align: initial;
+            position: static;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+      }
+
+      .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+      }
 }

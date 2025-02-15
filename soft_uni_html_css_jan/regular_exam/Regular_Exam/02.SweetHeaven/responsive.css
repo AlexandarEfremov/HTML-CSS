@@ -1,0 +1,77 @@
+@media only screen and (width <=600px) {
+    .nav-menu {
+        display: none;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 0.6em;
+    }
+
+    .nav-logo a {
+        padding-left: 0;
+    }
+
+    .nav-burger-menu {
+        display: block;
+        order: -1;
+        color: white;
+        font-size: 2em;
+    }
+
+    .nav-user-btns {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .nav-user-btns li button {
+        width: 100%;
+    }
+
+    .content-info-img {
+        display: none;
+    }
+
+    .content-info {
+        display: block;
+        padding: 30px 28px;
+    }
+    .content-info-welcome {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .content-info-welcome h2 {
+        font-size: 60px;
+        text-align: center;
+        margin: 0;
+    }
+    .content-info-welcome p {
+        text-align: center;
+    }
+
+    .content-info-welcome button {
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    .content-services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-services div {
+        width: 100%;
+    }
+    .gallery {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery img {
+        width: 100%;
+        background-color: transparent;
+    }
+}

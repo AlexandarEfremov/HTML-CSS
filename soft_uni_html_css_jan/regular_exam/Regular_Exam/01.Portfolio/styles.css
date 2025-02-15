@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body, table, input, textarea, button {
+  font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+p, ul, ol {
+  padding-bottom: 1.5em;
+}
+
+ul, ol {
+  padding-left: 1.5em;
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: white;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  width: 45%;
+  background-color: #080808;
+  color: white;
+  border-radius: 12px;
+  padding-bottom: 2em;
+}
+
+.navigation {
+  display: flex;
+  background-color: #1B1B1B;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  display: flex;
+  padding: 1.6em 1.4em;
+  justify-content: space-around;
+  color: #9C9C9C;
+  margin-bottom: 2.5em;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.nav-icons i {
+  display: inline-block;
+  font-size: 1em;
+  padding-right: 0.6em;
+  color: #5F5F5F;
+}
+
+.inner-main {
+  width: 78%;
+  margin: 0 auto;
+  display: flex;
+  gap: 1em;
+  justify-content: space-between;
+  padding-bottom: 3em;
+}
+
+.main-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 35em;
+}
+
+.main-left h1 {
+  font-size: 2.5em;
+}
+
+.main-left p {
+  color: #9C9C9C;
+  font-size: 1em;
+  padding-bottom: 0.8em;
+  padding-top: 1.4em;
+}
+
+.main-left .get-started {
+  text-decoration: none;
+  color: white;
+  background-color: #3F8E00;
+  width: 20em;
+  padding: 1em 2em;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.main-right img {
+  border-radius: 50%;
+  margin-right: 0;
+}
+
+.footer-sponsors {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer-sponsors .sponsor-cards {
+  margin: 0.6em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.worked-with {
+  font-size: 0.9em;
+}
+
+.footer-sponsors .sponsor-cards span {
+  border: 1px solid #525252;
+  border-radius: 8px;
+  width: 150px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
